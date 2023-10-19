@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Version>0.1</Version>
+		<Nullable>enable</Nullable>
+		<LangVersion>10.0</LangVersion>
+		<AssemblyName>Senparc.AI.PromptRange</AssemblyName>
+		<RootNamespace>Senparc.AI.PromptRange</RootNamespace>
+		<GeneratePackageOnBuild Condition=" '$(Configuration)' == 'Release' ">true</GeneratePackageOnBuild>
+		<Description>
+			Senparc.AI.PromptRange 核心模块，为所有 PromptRange 生态产品提供基座
+			https://github.com/Senparc/Senaprc.AI.PromptRange
+		</Description>
+		<Copyright>Senparc Copyright © 2004~2023</Copyright>
+		<PackageTags>
+			Senparc,AI,Kernel,C#,AIGC,GenAI,AGI,LLM,SemanticKernel
+		</PackageTags>
+		<Authors>Jeffrey Su</Authors>
+		<Owners>Senparc</Owners>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+		<ProjectUrl>https://github.com/Senparc/Senparc.AI.PromptRange</ProjectUrl>
+		<Title>Senparc.AI.PromptRange.dll</Title>
+		<Summary>Senparc.AI.PromptRange 核心模块</Summary>
+		<PackageProjectUrl>https://github.com/Senparc/Senparc.AI.PromptRange</PackageProjectUrl>
+		<PackageIcon>icon.jpg</PackageIcon>
+		<PackageReleaseNotes>
+			v0.1.0 创世
+		</PackageReleaseNotes>
+		<RepositoryUrl>https://github.com/Senparc/Senparc.AI.PromptRange</RepositoryUrl>
+		<Configurations>Debug;Release;Test</Configurations>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.1|AnyCPU'">
+		<OutputPath>..\BuildOutPut\</OutputPath>
+		<DocumentationFile>..\BuildOutPut\netstandard2.1\Senparc.AI.PromptRange.xml</DocumentationFile>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="icon.jpg" Pack="true" Visible="false" PackagePath="" />
+	</ItemGroup>
+	<ItemGroup>
+
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+
+		<PackageReference Include="Senparc.AI" Version="0.3.1-beta1" />
+
+		<PackageReference Include="Senparc.CO2NET" Version="2.2.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Interfaces\" />
+	</ItemGroup>
+</Project>
