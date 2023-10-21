@@ -7,4 +7,4 @@
 
 欢迎添加社区助理”盛小嗨“，入群探讨：
 
-![34641697870195_ pic](https://github.com/Senparc/Senparc.AI.PromptRange/assets/2281927/0bd60a5d-6b22-4262-85c7-0abb94151ffc)
+<img src="https://github.com/Senparc/Senparc.AI.PromptRange/assets/2281927/0bd60a5d-6b22-4262-85c7-0abb94151ffc" width="300" />
