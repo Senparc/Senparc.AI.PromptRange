@@ -8,3 +8,7 @@
 欢迎添加社区助理”盛小嗨“，入群探讨：
 
 <img src="https://github.com/Senparc/Senparc.AI.PromptRange/assets/2281927/0bd60a5d-6b22-4262-85c7-0abb94151ffc" width="300" />
+
+[什么是 PromptRange？](https://github.com/Senparc/Senparc.AI.PromptRange/wiki/What's-PromptRange%3F)
+
+
