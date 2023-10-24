@@ -1,3 +1,5 @@
+<img width="519" alt="image" src="https://github.com/Senparc/PromptRange/assets/2281927/55001a58-05e3-40e8-8e70-38e030032a2f">
+
 # Senparc.AI.PromptRange
 基于 Senparc.AI 的 SenparcPromptRange，提示词靶场的底层标准库。
 
